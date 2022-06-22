@@ -31,6 +31,9 @@ runner = CrawlerRunner(settings)
 def crawl():
     yield runner.crawl(GameCategorySpider)
 
+    # for spider in rank_spiders:
+    #     yield runner.crawl(eval(spider))
+
     # with open("taptap/saves/game-categories.jl", "r+", encoding="gbk") as f:
     #     for category_item in jsonlines.Reader(f):
     #         category_name = category_item['name']
