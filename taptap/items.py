@@ -6,18 +6,13 @@
 import scrapy
 
 
-class TaptapItem(scrapy.Item):
-    # define the fields for your item here like:
+class RankItem(scrapy.Item):
     name = scrapy.Field()
     id = scrapy.Field()
     stat = scrapy.Field()
 
 
-class GameCategoryItem(scrapy.Item):
-    name = scrapy.Field()
-
-
-class GameDetailItem(scrapy.Item):
+class CategoryItem(scrapy.Item):
     name = scrapy.Field()
     id = scrapy.Field()
     img_url = scrapy.Field()
@@ -26,3 +21,7 @@ class GameDetailItem(scrapy.Item):
     stat = scrapy.Field()
     tags = scrapy.Field()
     downloads = scrapy.Field()
+
+class GameDetailItem(scrapy.Item):
+    name = scrapy.Field()
+    # todo: check elements provided by the api and define proper fields

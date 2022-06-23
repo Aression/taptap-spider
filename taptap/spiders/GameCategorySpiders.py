@@ -9,7 +9,7 @@ import scrapy
 from scrapy import FormRequest
 
 from ProjSettings import *
-from ..items import GameDetailItem
+from ..items import CategoryItem
 
 
 def _category_details_spider_factory(_name: str = 'CategoryDetailsSpider_name_UNDEFINED', category: str = None):
@@ -37,7 +37,7 @@ def _category_details_spider_factory(_name: str = 'CategoryDetailsSpider_name_UN
             )]
 
         def parse(self, response, **kwargs):
-            item = GameDetailItem()
+            item = CategoryItem()
             try:
                 db = json.loads(response.text)
                 for i in db['data']['list']:
