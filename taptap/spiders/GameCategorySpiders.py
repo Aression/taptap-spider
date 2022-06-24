@@ -73,6 +73,7 @@ def _category_details_spider_factory(_name: str = 'CategoryDetailsSpider_name_UN
                 item['downloads'] = db['data']['stat']['play_total']
                 item['vote_info'] = db['data']['stat']['vote_info']
 
+                item['comment'] = []
                 # crawl comments
                 yield FormRequest(
                     url=domain + app_reviews.format(
@@ -91,9 +92,9 @@ def _category_details_spider_factory(_name: str = 'CategoryDetailsSpider_name_UN
                 db = json.loads(response.text)
                 item = response.meta['item']
                 size = response.meta['size'] + len(db['data']['list'])
-                item['comment'] = [
+                item['comment'].extend([
                     i['moment']['extended_entities']['reviews'][0]['contents']['text'] for i in db['data']['list']
-                ]
+                ])
                 yield item
                 if db['data']['next_page'] != '' and size < 100:
                     yield FormRequest(
