@@ -1,0 +1,120 @@
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "my_clock" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:16 CST)" (scheduled at 2022-06-24 11:15:16.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:16.629585
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:18 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:20 CST)" (scheduled at 2022-06-24 11:15:18.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:18.662580
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:20 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:22 CST)" (scheduled at 2022-06-24 11:15:20.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:20.630278
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:22 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:24 CST)" (scheduled at 2022-06-24 11:15:22.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:22.653240
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:24 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:26 CST)" (scheduled at 2022-06-24 11:15:24.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:24.650305
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:26 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:28 CST)" (scheduled at 2022-06-24 11:15:26.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:26.630355
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:28 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:30 CST)" (scheduled at 2022-06-24 11:15:28.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:28.641980
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:30 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:32 CST)" (scheduled at 2022-06-24 11:15:30.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:30.636964
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:32 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:34 CST)" (scheduled at 2022-06-24 11:15:32.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:32.631145
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:34 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:36 CST)" (scheduled at 2022-06-24 11:15:34.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:34.639635
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:36 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:38 CST)" (scheduled at 2022-06-24 11:15:36.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:36.636323
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:38 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:40 CST)" (scheduled at 2022-06-24 11:15:38.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:38.632198
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:40 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:42 CST)" (scheduled at 2022-06-24 11:15:40.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:40.644346
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:42 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:44 CST)" (scheduled at 2022-06-24 11:15:42.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:42.642470
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:44 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:46 CST)" (scheduled at 2022-06-24 11:15:44.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:44.635570
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:46 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:48 CST)" (scheduled at 2022-06-24 11:15:46.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:46.631839
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:48 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:50 CST)" (scheduled at 2022-06-24 11:15:48.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:48.643222
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:50 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:52 CST)" (scheduled at 2022-06-24 11:15:50.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:50.635998
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:52 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:54 CST)" (scheduled at 2022-06-24 11:15:52.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:52.630132
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:54 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:56 CST)" (scheduled at 2022-06-24 11:15:54.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:54.643216
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:56 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:58 CST)" (scheduled at 2022-06-24 11:15:56.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:56.636265
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:15:58 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:00 CST)" (scheduled at 2022-06-24 11:15:58.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:15:58.631229
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:00 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:02 CST)" (scheduled at 2022-06-24 11:16:00.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:00.644607
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:02 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:04 CST)" (scheduled at 2022-06-24 11:16:02.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:02.642932
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:04 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:06 CST)" (scheduled at 2022-06-24 11:16:04.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:04.638462
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:06 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:08 CST)" (scheduled at 2022-06-24 11:16:06.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:06.635808
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:08 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:10 CST)" (scheduled at 2022-06-24 11:16:08.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:08.631135
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:10 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:12 CST)" (scheduled at 2022-06-24 11:16:10.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:10.639069
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:12 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:14 CST)" (scheduled at 2022-06-24 11:16:12.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:12.631373
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:14 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:16 CST)" (scheduled at 2022-06-24 11:16:14.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:14.645061
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:16 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:18 CST)" (scheduled at 2022-06-24 11:16:16.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:16.640408
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:18 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:20 CST)" (scheduled at 2022-06-24 11:16:18.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:18.634159
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:20 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:22 CST)" (scheduled at 2022-06-24 11:16:20.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:20.629350
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:22 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:24 CST)" (scheduled at 2022-06-24 11:16:22.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:22.644522
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:24 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:26 CST)" (scheduled at 2022-06-24 11:16:24.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:24.640428
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:26 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:28 CST)" (scheduled at 2022-06-24 11:16:26.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:26.639116
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:28 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:30 CST)" (scheduled at 2022-06-24 11:16:28.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:28.631581
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:30 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:32 CST)" (scheduled at 2022-06-24 11:16:30.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:30.640663
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:32 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:34 CST)" (scheduled at 2022-06-24 11:16:32.628494+08:00)
+INFO:root:Hello! The time is: 2022-06-24 11:16:32.634243
+INFO:apscheduler.executors.default:Job "my_clock (trigger: interval[0:00:02], next run at: 2022-06-24 11:16:34 CST)" executed successfully

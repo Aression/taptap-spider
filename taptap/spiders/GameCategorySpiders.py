@@ -3,7 +3,6 @@
 
 import logging
 import json
-import jsonlines
 import pypinyin
 import scrapy
 from scrapy import FormRequest
