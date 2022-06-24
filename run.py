@@ -1,6 +1,8 @@
 # coding:utf-8
 import inspect
-import sys, logging
+import sys
+import logging
+import datetime
 
 from taptap.spiders.GameRankSpiders import *
 from taptap.spiders.GameCategorySpiders import *
@@ -10,7 +12,17 @@ from scrapy.crawler import CrawlerRunner
 from scrapy.utils.log import configure_logging
 from scrapy.utils.project import get_project_settings
 
-configure_logging()
+import logging
+from scrapy.utils.log import configure_logging
+
+configure_logging(install_root_handler=False)
+logging.basicConfig(
+    filename=f'logs/crawl_task_at_{datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.log',
+    format='%(asctime)s %(filename)s %(levelname)s %(message)s',
+    level=logging.INFO,
+    encoding='utf-8'
+)
+
 settings = get_project_settings()
 runner = CrawlerRunner(settings)
 
@@ -35,10 +47,13 @@ def crawl():
                 if spider_name.startswith(start_str):
                     logging.info("start spider: %s" % spider_name)
                     yield runner.crawl(spider_class)
-    yield runner.crawl(eval('GameRankSpider_' + 'pop'))
     reactor.stop()
 
-# help
+
 def go():
     crawl()
     reactor.run()  # the script will block here until the last crawl call is finished
+
+
+if __name__ == '__main__':
+    go()
