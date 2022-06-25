@@ -40,11 +40,22 @@ def crawl():
         'CategoryDetailsSpider',
         'GameRankSpider'
     ]
+    filters = [
+        # 'GameRankSpider_hot',
+        # 'GameRankSpider_pop',
+        # 'GameRankSpider_sell',
+        # 'GameRankSpider_reserve',
+        # 'CategoryDetailsSpider_MMORPG',
+        # 'CategoryDetailsSpider_ce_lve',
+        # 'CategoryDetailsSpider_Roguelike',
+        # 'CategoryDetailsSpider_UP_zhu_tui_jian',
+        # 'CategoryDetailsSpider_Steam_yi_zhi',
+    ]
     for name in module_names:
         for spider_name, spider_class in (inspect.getmembers(sys.modules[name], inspect.isclass)):
             for start_str in start_strs:
                 # 过滤掉不需要的类
-                if spider_name.startswith(start_str):
+                if spider_name.startswith(start_str) and spider_name not in filters:
                     logging.info("start spider: %s" % spider_name)
                     yield runner.crawl(spider_class)
     reactor.stop()

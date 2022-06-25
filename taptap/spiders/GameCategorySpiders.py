@@ -69,7 +69,11 @@ def _category_details_spider_factory(_name: str = 'CategoryDetailsSpider_name_UN
                 item['current_price'] = db['data']['price']['taptap_current']
                 item['original_price'] = db['data']['price']['taptap_original']
                 item['downloads'] = db['data']['stat']['play_total']
-                item['vote_info'] = db['data']['stat']['vote_info']
+
+                if db['data']['stat']['vote_info'] is not None:
+                    item['vote_info'] = db['data']['stat']['vote_info'] 
+                else:
+                    item['vote_info'] = {"1": -1, "2": -1, "3": -1, "4": -1, "5": -1}
 
                 # start to get latest reviews
                 item['comment'] = []
