@@ -42,10 +42,10 @@ def crawl():
         'GameRankSpider'
     ]
     filters = [
-        # 'GameRankSpider_hot',
-        # 'GameRankSpider_pop',
-        # 'GameRankSpider_sell',
-        # 'GameRankSpider_reserve',
+        'GameRankSpider_hot',
+        'GameRankSpider_pop',
+        'GameRankSpider_sell',
+        'GameRankSpider_reserve',
         # 'CategoryDetailsSpider_MMORPG',
         # 'CategoryDetailsSpider_ce_lve',
         # 'CategoryDetailsSpider_Roguelike',
